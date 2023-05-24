@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  background-color: black;
+  background-image: url("https://cdn.codewizardshq.com/228adcd6046fe021c56f8ae41f8d70da3b9b557f807b0eb4cf82adfdb189cdac.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: "Aldrich", sans-serif;
+  color: white;
+  overflow: hidden;
+}
+
+.gameOver {
+  display: none;
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  text-align: center;
+  font-size: 72px;
+  color: lightyellow;
+  text-shadow: 1px 1px 1px red;
+}
+
+#score {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 100px;
+}
+
+#stars {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  cursor: pointer;
+  transition: left 0.5s ease-in, top 0.5s ease-in-out;
+  border-radius: 1000px;
+  z-index: 99;
+}
